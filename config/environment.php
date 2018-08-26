@@ -13,7 +13,8 @@ return [
     |
     */
 
-    'default' => 'development',
+    #'default' => 'development',
+    'default' => 'production',
 
     /*
     |--------------------------------------------------------------------------

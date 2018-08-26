@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'backendForceRemember' => true,
+    'backendForceRemember' => null,
 
     /*
     |--------------------------------------------------------------------------
@@ -181,7 +181,7 @@ return [
     |
     */
 
-    'enableAssetCache' => false,
+    'enableAssetCache' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -195,7 +195,7 @@ return [
     |
     */
 
-    'enableAssetMinify' => null,
+    'enableAssetMinify' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -259,13 +259,13 @@ return [
         'uploads' => [
             'disk'   => 'local',
             'folder' => 'uploads',
-            'path'   => '/storage/app/uploads',
+            'path'   => '/october/storage/app/uploads',
         ],
 
         'media' => [
             'disk'   => 'local',
             'folder' => 'media',
-            'path'   => '/storage/app/media',
+            'path'   => '/october/storage/app/media',
         ],
 
     ],

@@ -149,6 +149,7 @@ return [
     */
 
     'secure' => false,
+    #'secure' => true, #set this once you have HTTPS enabled
 
     /*
     |--------------------------------------------------------------------------
@@ -167,6 +168,7 @@ return [
     |
     */
 
-    'same_site' => null,
+    #'same_site' => null,
+    'same_site' => "strict",
 
 ];
